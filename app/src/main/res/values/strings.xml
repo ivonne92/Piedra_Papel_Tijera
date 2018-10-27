@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Piedra_Papel_Tijera</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_nuevo_jugador">NuevoJugador</string>
+    <string name="title_activity_iniciar_juego">IniciarJuego</string>
+    <string name="title_activity_puntajes">Puntajes</string>
+</resources>

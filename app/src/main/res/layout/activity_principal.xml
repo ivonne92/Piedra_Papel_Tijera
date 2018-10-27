@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:id="@+id/lin"
+    android:gravity="center_horizontal"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Juegos Clasico"
+        android:id="@+id/textView"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Piedra, Papel y Tijera"
+        android:id="@+id/textView2"
+        android:layout_marginTop="5dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nuevo Jugador"
+        android:id="@+id/button"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        android:width="200dp"
+        android:layout_weight="0.1"
+        android:onClick="callJuego" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jugar"
+        android:id="@+id/button2"
+        android:layout_marginTop="25dp"
+        android:textSize="20dp"
+        android:width="200dp"
+        android:layout_weight="0.1"
+        android:onClick="iniciarJuego" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puntajes"
+        android:id="@+id/button3"
+        android:layout_marginTop="25dp"
+        android:textSize="20dp"
+        android:width="200dp"
+        android:layout_weight="0.1"
+        android:onClick="puntaje" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="UNIVERSIDAD DE SONSONATE"
+        android:id="@+id/textView3"
+        android:layout_marginTop="100dp"
+        android:textSize="20dp"
+        android:textIsSelectable="true" />
+</LinearLayout>
